@@ -11,7 +11,7 @@
             },
             "auth_config": {
                 "title": "基本設定",
-                "description": "### ログインエリア\r\nXiaomi アカウントが属する地域を選択します。 `Xiaomi Home アプリ> マイ（ボトムメニューにあります）> その他の設定> Xiaomi Home について` で確認できます。\r\n### 言語\r\nデバイスおよびエンティティ名に使用される言語を選択します。一部の翻訳が欠落している場合、英語が表示されます。\r\n### OAuth2 認証リダイレクトアドレス\r\nOAuth2 認証リダイレクトアドレスは **[http://homeassistant.local:8123](http://homeassistant.local:8123)** です。Home Assistant は、現在の操作端末（たとえば、パーソナルコンピュータ）と同じ LAN 内にあり、操作端末がこのアドレスで Home Assistant ホームページにアクセスできる場合にのみログイン認証が成功する場合があります。\r\n### 注意事項\r\n- 数百台以上のMi Homeデバイスをお持ちのユーザーの場合、統合の初回追加には時間がかかります。しばらくお待ちください。\r\n- Home AssistantがDocker環境で実行されている場合は、Dockerのネットワークモードがhostに設定されていることを確認してください。そうしないと、ローカル制御機能が正しく動作しない可能性があります。\r\n- 統合のローカル制御機能にはいくつかの依存関係があります。READMEを注意深く読んでください。",
+                "description": "### ログインエリア\r\nXiaomi アカウントが属する地域を選択します。 `Xiaomi Home アプリ> マイ（ボトムメニューにあります）> その他の設定> Xiaomi Home について` で確認できます。\r\n### 言語\r\nデバイスおよびエンティティ名に使用される言語を選択します。一部の翻訳が欠落している場合、英語が表示されます。\r\n### OAuth2 認証リダイレクトアドレス\r\nOAuth2 認証リダイレクトアドレスは **[https://www.ticknas.com:5508](https://www.ticknas.com:5508)** です。Home Assistant は、現在の操作端末（たとえば、パーソナルコンピュータ）と同じ LAN 内にあり、操作端末がこのアドレスで Home Assistant ホームページにアクセスできる場合にのみログイン認証が成功する場合があります。\r\n### 注意事項\r\n- 数百台以上のMi Homeデバイスをお持ちのユーザーの場合、統合の初回追加には時間がかかります。しばらくお待ちください。\r\n- Home AssistantがDocker環境で実行されている場合は、Dockerのネットワークモードがhostに設定されていることを確認してください。そうしないと、ローカル制御機能が正しく動作しない可能性があります。\r\n- 統合のローカル制御機能にはいくつかの依存関係があります。READMEを注意深く読んでください。",
                 "data": {
                     "cloud_server": "ログインエリア",
                     "integration_language": "言語",
@@ -60,7 +60,7 @@
         "step": {
             "auth_config": {
                 "title": "認証構成",
-                "description": "ローカル認証情報が期限切れになっています。認証を再開してください。\r\n### 現在のログインエリア：{cloud_server}\r\n### OAuth2 認証リダイレクトアドレス\r\nOAuth2 認証リダイレクトアドレスは **[http://homeassistant.local:8123](http://homeassistant.local:8123)** です。Home Assistant は、現在の操作端末（たとえば、パーソナルコンピュータ）と同じ LAN 内にあり、操作端末がこのアドレスで Home Assistant ホームページにアクセスできる場合にのみログイン認証が成功する場合があります。",
+                "description": "ローカル認証情報が期限切れになっています。認証を再開してください。\r\n### 現在のログインエリア：{cloud_server}\r\n### OAuth2 認証リダイレクトアドレス\r\nOAuth2 認証リダイレクトアドレスは **[https://www.ticknas.com:5508](https://www.ticknas.com:5508)** です。Home Assistant は、現在の操作端末（たとえば、パーソナルコンピュータ）と同じ LAN 内にあり、操作端末がこのアドレスで Home Assistant ホームページにアクセスできる場合にのみログイン認証が成功する場合があります。",
                 "data": {
                     "oauth_redirect_url": "認証リダイレクトアドレス"
                 }
